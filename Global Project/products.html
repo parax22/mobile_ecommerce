@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>All Products</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <!--added a cdn link by searching font awesome4 cdn and getting this link from https://www.bootstrapcdn.com/fontawesome/ this url*/-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <!--<div class ="header">-->
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="image/logo.png" width="125px"></a>
+                </div>
+               <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                         <li><a href="products.html">Products</a></li>
+                         <li><a href="">About</a></li>
+                         <li><a href="">Contact</a></li>
+                         <li><a href="account.html">Account</a></li>
+
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="image/cart.png" width="30px" height="30px"></a>
+                <img src="image/menu.png" class="menu-icon" onClick="menutoggle()" >
+            </div>
+           
+        </div>
+    <!--</div>-->
+    
+        
+        <!------------------------------ Products------------------------------>
+        <div class="small-container">
+            <div class="row row-2">
+                <h2>All Products</h2>
+                <select>
+                    <option>Default sorting</option>
+                    <option>Short by price</option>
+                    <option>Short by popularity</option>
+                    <option>Short by rating</option>
+                    <option>Short by sale</option>
+                </select>
+            </div>
+            
+            
+            <!--<h2 class="title" >Featured Products</h2>-->
+            <div class="row">
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="image/product-1.webp" style="width: 200px; height: 250px;"></a>
+                        <a href="products-details.html"><h4>Realme Hero 5G</h4></a>
+                        <div class="rating">
+                            
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>₹25,999</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="image/product-2.webp" style="width: 200px; height: 250px;"></a>
+                        <h4>Realme Narzo N65 5G</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                        </div>
+                        <p>₹17,999</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="image/product-3.webp" style="width: 200px; height: 250px;"></a>
+                        <h4>Realme GT 6T 5G</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>₹21,999</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="image/product-4.webp" style="width: 200px; height: 250px;"></a>
+                        <h4>Realme 14 Pro+ 5G</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>₹19,999</p>
+                    </div>  
+                </div>
+            
+            <!-------------- new row----------------->
+            
+            <div class="row">
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="image/product-5.webp" style="width: 200px; height: 250px;"></a>
+                        <h4>Vivo V50</h4>
+                        <div class="rating">
+                            
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>₹14,999</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="image/product-6.webp" style="width: 200px; height: 250px;"></a>
+                        <h4>Realme 14 Pro+ 5G</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                        </div>
+                        <p>₹19,999</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="image/product-7.webp" style="width: 200px; height: 250px;"></a>
+                        <h4>Vivo V50</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>₹13,999</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="image/product-8.webp" style="width: 200px; height: 250px;"></a>
+                        <h4>Vivo V50</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>₹13,999</p>
+                    </div>  
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="image/product-9.webp" style="width: 200px; height: 250px;"></a>
+                        <h4>Iphone</h4>
+                        <div class="rating">
+                            
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>₹89,999</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="image/product-10.webp" style="width: 200px; height: 250px;"></a>
+                        <h4>Poco X6 Neo 5G</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                        </div>
+                        <p>₹16,999</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="image/product-11.webp" style="width: 200px; height: 250px;"></a>
+                        <h4>IQOO Z9X 5G</h4>
+                        <div class="rating">
+                            <i class="fa fa-star-o" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>₹15,999</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="image/product-12.webp" style="width: 200px; height: 250px;"></a>
+                        <h4>Galaxy S25 Ultra</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>₹1,49,000</p>
+                    </div>  
+                </div>
+            
+            <div class="page-btn">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>&#8594;</span>
+            </div>
+            
+        </div>
+        
+        
+        <!----------------------------------footer------------------------------------->
+        <div class ="footer">
+            <div class="container">
+                
+                <div class="row">
+                    <div class="footer-col-2">
+                        <img src="image/logo.png" height="100px">
+                        <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                       <ul>
+                           <li>Coupons</li>
+                           <li>Blog Post</li>
+                             <li>Return Policy</li>
+                           <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <hr><!--horizontal line-->
+                <p class="copyright">Copyright 2021 - Apurba Kr. Pramanik</p>
+                
+            </div>
+        </div>
+        
+        
+        <!-----------------------------------js for toggle menu----------------------------------------------->
+        <script>
+            var menuItems=document.getElementById("MenuItems");
+            
+            MenuItems.style.maxHeight="0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px"){
+                    MenuItems.style.maxHeight="200px";
+                }
+                else{
+                    MenuItems.style.maxHeight="0px";
+                }
+            }
+        </script>
+    </body>
+</html>
